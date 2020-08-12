@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="comment_like.js"></script>
+</head>
+<body>
+<div style="background: violet;display: flex;justify-content: flex-start;align-items: center;flex-direction: column;height: 100vh;">
+        <div style="display: flex;flex-direction: row;" id="comment">
+            <input type="text" id="inputid">
+            <button onclick="comment()" style="background: pink; color: black;margin: 5px;height: 30px;">comment</button>
+        </div>
+        <div id="likeid" style="font:25px;margin: 5px;">1</div>
+        <button onclick="like()" style="background:rgb(165, 165, 252); color: black;margin: 5px; height: 30px;">Like</button>
+       
+
+        <div id="commbox">
+            <div id="reference" style="display: flex;justify-content: space-between;">
+                <div> sample comment</div>
+                <button onclick="delcomm(this)"> Delete </button>
+            </div>
+        </div>
+</div>
+    
+    
+    
+</body>
+</html>
