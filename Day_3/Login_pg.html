@@ -1,0 +1,59 @@
+<!<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Login Page</title>
+    <style>
+        html,body{
+            margin:0;
+        }
+    </style>
+    <style>
+        .mybackground{
+            background: url("https://picsum.photos//id/1079/1200/1200");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+    </style>
+    
+    </head>
+    
+<body>
+    <div class="mybackground" style="display:flex;justify-content: center;align-items: center;flex-direction: column;">
+        
+        <div style="color:snow;font-size:40px;font-weight:initial;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                align-items: center;justify-content: center;display: flex;flex:0.1;width:350px;margin-bottom: 10px;">
+            Login
+         </div>
+         <div>
+            <img src="https://img.icons8.com/officel/100/000000/login-as-user.png" style="background: white; border-radius: 150px;"/>
+        </div>
+         <div id="cancel" style="flex-direction:column;background-color:rgba(178, 179, 179, 0.45);color:snow;font-size:24px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                     align-items: flex-start;padding: 20px;justify-content: flex-start;display: flex;flex:0.15;border-radius: 15px;width:350px;margin-top: 10px;">
+            <div style="font-size:24px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        align-items: flex-start;justify-content: flex-start;display: flex;flex:0.2;width: 100%;">
+                Username:
+                <input type="text" placeholder="Username" style="margin-top: 5px;margin-left: 20px;width: 75%;" required minlength="5" maxlength="12" pattern="[A-Za-z\d$!%*#?&]">
+             </div>
+             <div style="font-size:24px;font-weight:initial;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        align-items: center;justify-content: flex-start;display: flex;flex:0.2;width: 100%;">
+                Password:
+                <input type="password" placeholder="Password"style="margin-top: 5px;margin-left: 25px;width: 75%;"required minlength="5" maxlength="12" pattern="[A-Za-z\d$!%*#?&]">
+             </div >
+             <div style="display: flex; width: 100%; flex: 0.2;margin-top: 20px;align-items: flex-start;justify-content: flex-start">
+                <div style="margin-right: 15px;"> <input type="checkbox" style="margin: 10px;" > <label style="font-size: 13px;padding-bottom: 5px;">Keep me signed in</label> </div>
+                 <div style="margin-left: 15px;"><input type="checkbox" style="margin: 10px;"> <label style="font-size: 13px; padding-bottom: 5px;">Remember Password</label></div>
+             </div>
+         </div>
+         <div style="
+                     align-items: center;padding-left:5px;justify-content:space-between;display: flex;flex:0.15;width:300px;margin-top: 10px;">
+            <button onclick="window.location.href='background_Image.html'"style="background-color:rgb(29,161,242);color:whitesmoke;font-size:24px;font-weight:initial;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-right: 13px;padding-left: 13px;padding-bottom: 7px;padding-top:7px;align-items: center;justify-content: center;display: flex;flex:0.25;margin-top: 1px;margin-left:40px;border-radius: 10px;"> Login </button>
+             <button onclick="window.location.href='Login_pg.html'" style="background-color:rgb(29,161,242);color: white;font-size:24px;font-weight:initial;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             padding:7px;align-items: center;justify-content: center;display: flex;flex:0.25;margin-top: 1px;margin-right:40px;border-radius: 10px;"> Cancel </button>  
+         </div>
+    </div>
+</body>
