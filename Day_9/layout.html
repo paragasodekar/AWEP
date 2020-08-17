@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+        .myclass{
+            background:url("https://picsum.photos/1200/1200");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+    <script>
+       function added() { 
+           alert(<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+  <hr></hr>
+  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+   </div>);
+       }
+    </script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+   <div class="myclass"> 
+       <div class="container-fluid ">   
+        <div class="row " style="height: 15vh;"></div>
+    <div class="row mt-1 " style="height:30vh">
+        <div class="col-3 " style="height:30vh"></div>  
+        <div class="col-md-6 col-sm-12 bg-warning rounded text-primary font-weight-bold font-md-36px font-sm-10px" style="display:flex;flex-direction: column;height:30vh;padding: 10px;justify-content: center;align-items: center;">
+            <div style="display: flex;justify-content: center;align-items: center; font-size: 36px;height: 50px;"> Add Grossery Items</div>
+            <input type="text" placeholder="add item" style="margin: 10px;width: 80%;">
+            <button onclick="added()" class="btn btn-danger rounded"style="margin: 10px; width: 200px;">Submit </button>
+          </div>
+          <div class="col-3" style="height:30vh"> </div>
+        </div>
+      
+      <div class="row mt-1" style="height:30vh; margin-top: 2px;">
+        <div class="col-3" style="height:30vh"></div>  
+        <div class="col-md-6 col-sm-12 bg-secondary rounded text-light font-weight-bold" style="display:flex;flex-direction: column;height:30vh;padding: 10px;justify-content: center;align-items: center;">
+            <div style="display: flex;justify-content: center;align-items: center; font-size: 24px;height: 40px;"> Grossery Items</div>
+            <div style="display: flex;justify-content:flex-start;align-items:flex-start;font-size: 14px;height: 25px;"> 
+                <div style="display: flex;">Item 1</div>
+                <div style="display: flex;"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-dash-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                    <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z"/>
+                  </svg></div>
+            </div>
+            <div style="display: flex;justify-content: center;align-items: center; font-size: 12px;height: 25px;"> 
+                <div style="display: flex;">Item 2</div>
+                <div style="display: flex;"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-dash-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                    <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z"/>
+                  </svg></div>
+            </div>
+            <div style="display: flex;justify-content: center;align-items: center; font-size: 12px;height: 25px;"> 
+                <div style="display: flex;">Item 3</div>
+                <div style="display: flex;"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-dash-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                    <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z"/>
+                  </svg></div>
+            </div>
+            <button onclick="added()" class="btn btn-success rounded"style="margin: 10px; width: 200px;">Clear Items </button>
+          </div>
+          <div class="col-3" style="height:30vh"> </div>
+        </div>
+        <div class="row mt-1 " style="height:60vh; margin-top: 2px;"></div>
+    </div>
+    </div>
+</div>
+  </body>
+</html>
